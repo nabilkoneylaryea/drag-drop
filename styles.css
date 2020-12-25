@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#fff;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin: 50px auto;
+    background: lightblue;
+}
+.grid-item{
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: #fff;
+    padding: 16px;
+    height: 160px;
+    width: 160px;
+}
+.filler{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 140px;
+    width: 140px;
+    background-image: url('http://source.unsplash.com/random/150x150');
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    overflow: hidden;
+}
+.hold{
+    cursor: grabbing;
+}
+.hover-1{
+    border-color: red;
+}
+.hover-2{
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    box-shadow: 5px 5px 5px gray;
+    cursor: grab;
+}
+.transition{
+    transition: .5s;
+}
+.invisible{
+    display: none;
+}
